@@ -1,0 +1,85 @@
+#mainform {
+    background-color: #fff;
+    border-radius: 5px;
+    max-width: calc(100% - 50px);
+}
+.form-table {
+    padding: 10px 15px 20px;
+    display: block;
+}
+.form-table th {
+    width: 250px;
+    font-size: 15px;
+}
+.form-table th.section {
+    font-size: 20px;
+}
+.checkout ul.features {
+    list-style: circle;
+    margin-left: 18px;
+}
+input[type=text],
+input[type=email],
+input[type=number],
+select {
+    width: 400px;
+}
+input[type="checkbox"] + p.description {
+    display: inline-block;
+    width: calc(100% - 30px);
+    vertical-align: top;
+    margin-top: 0;
+}
+.checkout tr:first-of-type .titledesc.section {
+    white-space: nowrap;
+}
+.navigation-tab .tablinks {
+    background-color: #fff;
+    float: left;
+    border: 1px solid #ccc;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 16px;
+    position: relative;
+    min-width: 130px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+}
+.navigation-tab .tablinks:not(:last-child) {
+    border-right: 1px solid #ccc;
+}
+.navigation-tab .tablinks:hover {
+    background-color: #ddd;
+}
+.navigation-tab .tablinks.active {
+    background-color: #ccc;
+    border-bottom-color: transparent;
+}
+#mainform .button-primary {
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.notice.notice-success.is-dismissible {
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+#wpfooter {
+    position: static;
+}
+#footer-virtuaria > h4 {
+    font-size: 16px;
+}
+.premium img {
+    max-width: 100%;
+}
+.premium-resources {
+    margin-top: 60px;
+    border-top: 1px solid #CCC;
+    padding-top: 42px;
+    max-width: 930px;
+}

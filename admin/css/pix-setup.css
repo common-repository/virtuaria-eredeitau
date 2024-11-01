@@ -1,0 +1,12 @@
+#product_cat-all {
+    padding: 15px;
+    background-color: #fff;
+    max-width: 370px;
+}
+
+#product_catchecklist {
+    max-height: 185px;
+    overflow: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
